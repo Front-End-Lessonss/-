@@ -1,0 +1,22 @@
+TypeScript notes:
+
+Jsnin standartlarını dəyişdirən yazım standartıdır
+Js proyektinə inteqrasiya oluna bilir
+
+ÖZƏLLİKLƏRİ
+static typing ( tipini veririk meselen sadece string olsun )
+class
+modulyerlik -- basqa documente daxil edib calisdira bilirik
+ES-6 
+
+INSTALLING:
+npm install -g typescript
+uzantisi: ts
+typescriptde yazdigimiz javascriptde toplanir, kodumuzu yazdiqdan sonra terminalda tsc file adi uzantisi yazmaliyiq
+tsc typescript.ts bu sekilde
+lakin her defe bunu etmek evezine sonuna -w (watch mode) de elave ede biler, yeni bununla avtomatik olaraq yenilenecek
+eger tipini her birinde yaza bilmek ozelliyi elde etmek isteyirikse o zaman tipe any yaziriq
+
+MASSİVLER
+massivleri tanimlayarken tip[] de yaza bilerik ve
+Array<tip> busekilde de yaza bilerik
